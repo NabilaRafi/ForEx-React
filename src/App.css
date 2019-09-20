@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.carousel {
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  background-color:#276F8E;
+  top: 30px;
+  left: 30%;
+  color: #ffffff;
+}
+.carousel-copy {
+  font-size: 15px;
+}
+
+.carousel-inner {
+  top: 35px;
+}
+
+.input-group {
+  padding-left: 130px;
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    width: auto;
+    left: 0;
+    height: 50vh;
+  }
+  .input-group {
+    padding-left: 24%;
+  }
+}
+
+@media (max-width: 320px) {
+  .input-group {
+    padding-left: 60px;
+  }
+}
